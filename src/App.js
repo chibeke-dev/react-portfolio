@@ -3,11 +3,12 @@ import Container from "@material-ui/core/Container";
 import config from "react-reveal/globals";
 
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer"
 import styles from "./app.module.css";
 import HeroContainer from "./components/HeroContainer/HeroContainer";
 
 const App = () => {
-  const navList = ["Home","Skills", "Portfolio", "Contact"];
+  const navList = ["Home","Skills", "About", "Portfolio", "Contact"];
   config({ ssrFadeout: true });
 
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Container maxWidth="lg" className={styles.container}>
         <Header list={navList} />
         <HeroContainer />
+        <Footer/>
       </Container>
     
     </>
