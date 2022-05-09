@@ -7,6 +7,10 @@ import Footer from "./components/Footer/Footer"
 import styles from "./app.module.css";
 import HeroContainer from "./components/HeroContainer/HeroContainer";
 import About from "./components/About/About";
+import Skills from "./components/Skills/Skills";
+
+
+
 const App = () => {
   const navList = ["Home","Skills", "About", "Portfolio", "Contact"];
   config({ ssrFadeout: true });
@@ -16,10 +20,10 @@ const App = () => {
       <Container maxWidth="lg" className={styles.container}>
         <Header list={navList} />
         <HeroContainer />
-        <About/>
-        <Footer/>
+        <About />
+        <Skills />
        </Container>
-    
+       <Footer />
     </>
   );
 };
