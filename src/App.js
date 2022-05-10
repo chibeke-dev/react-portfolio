@@ -8,7 +8,7 @@ import styles from "./app.module.css";
 import HeroContainer from "./components/HeroContainer/HeroContainer";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
-
+import Contact from "./components/Contact/Contact"
 
 
 const App = () => {
@@ -22,6 +22,7 @@ const App = () => {
         <HeroContainer />
         <About />
         <Skills />
+        <Contact />
        </Container>
        <Footer />
     </>
