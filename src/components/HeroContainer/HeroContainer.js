@@ -23,9 +23,9 @@ const HeroContainer = () => {
       </div>
       <img
         ref={refRight}
-        src="./images/My pic.jpg"
+        src="./images/Mine.jpg"
         alt="developer illustration"
-        style={{width: '500px', borderRadius: '50%', height: '400px', marginLeft: '200px'}}
+        style={{width: '500px', borderRadius: '10%', height: '500px', marginLeft: '200px'}}
       />
     </div>
   );

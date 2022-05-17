@@ -9,6 +9,7 @@ import HeroContainer from "./components/HeroContainer/HeroContainer";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
 import Contact from "./components/Contact/Contact"
+import Portfolio from "./components/Portfolio/Portfolio";
 
 
 const App = () => {
@@ -22,7 +23,8 @@ const App = () => {
         <HeroContainer />
         <About />
         <Skills />
-        <Contact />
+        <Portfolio />
+        <Contact /> 
        </Container>
        <Footer />
     </>

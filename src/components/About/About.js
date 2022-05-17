@@ -22,7 +22,7 @@ const About = () => {
         <Slide right>
           <div className={styles.content}>
             <p>
-             Chidinma Nwabekee is a software developer and copy writer, with my main focus being on the front-end. I specialize in building and designing web pages, writing well-designed, testable, and efficient code by using the best software development practice. 
+             Chidinma Nwabekee is a software developer, with my main focus being on the front-end. I specialize in building and designing web pages, writing well-designed, testable, and efficient code by using the best software development practice. 
              When not coding or writing for the web, she enjoys watching movies, working out and making good food.
             </p>
           </div>
